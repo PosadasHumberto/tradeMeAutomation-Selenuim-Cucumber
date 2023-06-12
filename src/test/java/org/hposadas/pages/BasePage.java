@@ -60,6 +60,12 @@ public class BasePage {
         find(locator).sendKeys(textToWrite);
     }
 
+    public int dropdownSize(String locator) {
+        Select dropdown = new Select(find(locator));
+        List<WebElement> dropdownOptions = dropdown.getOptions();
+        return dropdownOptions.size();
+    }
+
     public void selectFromDropdownByValue(String locator, String valueToSelect) {
         Select dropdown = new Select(find(locator));
         dropdown.selectByVisibleText(valueToSelect);
@@ -70,7 +76,7 @@ public class BasePage {
         dropdown.selectByIndex(valueToSelect);
     }
 
-    public void selectDropdownByText(String locator, String valuToSelect) {
+    public void selectFromDropdownByText(String locator, String valuToSelect) {
         Select dropdown = new Select(find(locator));
         dropdown.selectByVisibleText(valuToSelect);
     }

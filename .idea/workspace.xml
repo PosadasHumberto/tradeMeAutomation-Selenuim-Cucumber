@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c47229a-a7e0-43d9-a04f-33061caf47bc" name="Changes" comment="" />
+    <list default="true" id="6c47229a-a7e0-43d9-a04f-33061caf47bc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/hposadas/pages/TradeMeMotorsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/hposadas/steps/TradeMeSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/hposadas/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/hposadas/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/hposadas/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/hposadas/runner/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/tradeMe.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/tradeMe.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +21,23 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2R6o9k88kZwASmcgbJGVZ6aCkbY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,9 +46,100 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Formaciones\Udemy\Selenium con Java y Cucumber\Projects\TradeMeAutomation\tradeMeAutomation\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: &quot;As a user, I wanto to verify the amount of car makes throught the API&quot;">
+    <configuration name="Scenario: &quot;As a user, I can see all the car makes on the Make dropdown&quot;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/tradeMe.feature" />
+      <option name="GLUE" value="org.hposadas.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="tradeMeAutomation" />
+      <option name="NAME_FILTER" value="^\&quot;As a user\, I can see all the car makes on the Make dropdown\&quot;$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\&quot;As a user\, I can see all the car makes on the Make dropdown\&quot;$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: &quot;As a user, I can see all the car makes on the Make dropdown&quot;" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: &quot;As a user, I can validate that each make has the right amount of cars listed&quot;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/tradeMe.feature" />
+      <option name="GLUE" value="org.hposadas.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="tradeMeAutomation" />
+      <option name="NAME_FILTER" value="^\&quot;As a user\, I can validate that each make has the right amount of cars listed\&quot;$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\&quot;As a user\, I can validate that each make has the right amount of cars listed\&quot;$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: &quot;As a user, I can validate that each make has the right amount of cars listed&quot;" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: &quot;As a user, I wanto to verify the amount of car makes throught the API&quot;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/tradeMe.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="tradeMeAutomation" />
+      <option name="NAME_FILTER" value="^\&quot;As a user\, I wanto to verify the amount of car makes throught the API\&quot;$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\&quot;As a user\, I wanto to verify the amount of car makes throught the API\&quot;$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: &quot;As a user, I wanto to verify the amount of car makes throught the API&quot;" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tradeMeAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hposadas.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hposadas.runner" />
+      <option name="MAIN_CLASS_NAME" value="org.hposadas.runner.Runner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: &quot;As a user, I wanto to verify the amount of car makes throught the API&quot;" />
+        <item itemvalue="Cucumber Java.Scenario: &quot;As a user, I can validate that each make has the right amount of cars listed&quot;" />
+        <item itemvalue="Cucumber Java.Scenario: &quot;As a user, I can see all the car makes on the Make dropdown&quot;" />
+        <item itemvalue="JUnit.Runner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,9 +148,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686579746528</updated>
-      <workItem from="1686579751154" duration="5000" />
+      <workItem from="1686579751154" duration="8135000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -51,5 +165,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tradeMeAutomation$Scenario___As_a_user__I_can_validate_that_each_make_has_the_right_amount_of_cars_listed_.ic" NAME="Scenario: &quot;As a user, I can validate that each make has the right amount of cars listed&quot; Coverage Results" MODIFIED="1686586577933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
   </component>
 </project>
